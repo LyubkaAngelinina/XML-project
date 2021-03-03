@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="recipes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="recipeList" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="recipe" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="recipeInfo">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="name" type="xs:string"/>
+                                                    <xs:element name="location" type="xs:string"/>
+													<xs:element name="region" type="xs:string"/>
+                                                    <xs:element name="id" type="xs:integer" />
+													<xs:element name="regionId" type="xs:integer"/>
+													<xs:element name="portions" type="xs:integer" minOccurs="0"/>
+                                                    <xs:element name="desc" type="xs:string"/>
+                                                   
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="ingredients">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ingredient" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                      
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+				<xs:element name="regionList" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="regionInfo" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+										<xs:element name="regionName" type="xs:string"/>
+                                        <xs:element name="reg" maxOccurs="1">
+                                             <xs:complexType>
+												<xs:simpleContent>
+												  <xs:extension base="xs:string">
+													<xs:attribute type="xs:string" name="regRef" />
+													<xs:attribute type="xs:integer" name="regIdRef" />
+												  </xs:extension>
+												</xs:simpleContent>
+											 </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+       
+	<xs:key name="regionKey">
+            <xs:selector xpath="recipes/recipeList/recipe/recipeInfo"/>
+            <xs:field xpath="region"/>
+            <xs:field xpath="regionId"/>
+        </xs:key>
+        <xs:keyref name="regionRef" refer="regionKey">
+            <xs:selector xpath="recipes/regionList/regionInfo/reg"/>
+            <xs:field xpath="@regRef"/>
+            <xs:field xpath="@regIdRef"/>
+        </xs:keyref>
+    </xs:element>
+</xs:schema>

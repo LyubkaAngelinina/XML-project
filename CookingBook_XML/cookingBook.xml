@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cookingBook.xsl"?>
+<recipes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cookingBook.xsd">
+	<recipeList>
+		<recipe> 
+				<recipeInfo>
+					 <name>Сирене по шопски</name>
+					 <location>София</location>
+					 <region>Югозападен регион</region>
+					 <id>1</id>
+					 <regionId>206</regionId>
+                     <time>около 20 мин</time>
+					 <portions>5</portions>
+		            <recipeSteps>
+Сиренето се обезсолява и се нарязва на пет плоски парчета, които се поставят в пет намазани с масло пръстени гювечета. 
+Върху парчетата сирене се поставят кръгчета домат и малко масло. Гювечетата се поставят в силно нагрята фурна за около 5 минути. 
+Изваждат се, върху всяко парче сирене се разлива по едно неразбито яйце и се слага една лютива чушка. 
+Гювечето отново се слага във фурната и се изважда след втвърдяване на яйцата. Може да се приготви и в едно голямо гювече. 
+Сервира се топло.
+</recipeSteps>
+				</recipeInfo>
+				<ingredients>					
+                    <ingredient>500гр. сирене</ingredient>
+					<ingredient>40гр. масло</ingredient>
+					<ingredient>5 яйца</ingredient>
+					<ingredient>2 червени домата</ingredient>
+					<ingredient>5 люти чушки</ingredient>
+				</ingredients>
+            
+		 </recipe>
+		 <recipe>
+				<recipeInfo>
+					 <name>Родопски клин</name>
+					 <location>Сърница</location>
+					 <region>Южен Централен регион</region>
+					 <id>2</id>
+					 <regionId>205</regionId>
+                     <time>до 45 мин</time>
+					 <portions>6</portions>
+                     <recipeSteps>Слагат се в тенджера водата, малко сол и малко масло. 
+                     След като заври водата, се слага ориза. Като се свари, се изсипва в по-голям съд. 
+                     След като изстине, се прибавят още от маслото, яйцата, сиренето и кашкавала и се разбърква. 
+                     В тавичка, намазана с олио или масло, се подреждат половината от корите, след което се изсипва цялата плънка 
+                     и отгоре се слага останалата част от корите. Подвиват се краищата и най-отгоре се слагат парченца масло, 
+                     след което се пече, но не във фурна, а на котлона на печката - първо от едната страна, 
+                     после се обръща в друга тава от втората страна. 
+                     Готовият клин се нарязва на ромбове и се сервира. Може да го комбинирате с айрян.
+                     </recipeSteps>
+				</recipeInfo>
+				<ingredients>
+					<ingredient>1/2 пакет фини точени кори</ingredient>
+					<ingredient>2 чаени чаши ориз</ingredient>
+					<ingredient>4 чаени чаши вода</ingredient>
+					<ingredient>олио</ingredient>
+					<ingredient>краве масло</ingredient>
+					<ingredient>сол</ingredient>
+					<ingredient>сирене, кашкавал</ingredient>
+
+				</ingredients>
+		 </recipe>
+		 <recipe>
+				<recipeInfo>
+					 <name>Кюфтета по чирпански</name>
+					 <location>Чирпан</location>
+					 <region>Югоизточен регион</region>
+					 <id>3</id>
+					 <regionId>204</regionId>
+                     <time>до 90 мин</time>
+					 <portions>8</portions>
+                     <recipeSteps>Налейте вода в голяма тенджера. Сложете я на котлона и оставете да заври. 
+                     Омесете каймата - смесете всички продукти в голяма купа докато стане хомогенна смес. 
+                     След това разделяте сместа на 12 равни части, от които се правят 12 кюфтенца. 
+                     Овалват се в брашно и се пускат във врящата вода. На умерен огън загряваме олиото. 
+                     В него слагаме лука и целината. Разбъркваме периодично докато омекне. Добавят се морковите, картофите, чушките. 
+                     Задушава се и се добавя черен пипер. Всичко това се прибавя към кюфтетата и се добавя доматено пюре и сол. 
+                     Тенджерата се похлупва с капака и се оставя да къкри 25-30 минути.
+                     Кюфтетата по чирпански се сервират докато са топли, може да добавите и люта чушка. 
+</recipeSteps>
+				</recipeInfo>
+				<ingredients>
+					<ingredient>500гр. кайма</ingredient>
+					<ingredient>1 яйце</ingredient>
+					<ingredient>90гр. лук</ingredient>
+					<ingredient>2 с.л галета</ingredient>
+					<ingredient>40гр олио</ingredient>
+					<ingredient>180гр. лук</ingredient>
+					<ingredient>50гр стъбла целина</ingredient>
+					<ingredient>1-2кг. картофи</ingredient>
+					<ingredient>3бр. моркови</ingredient>
+					<ingredient>240гр.чушки</ingredient>
+					<ingredient>70гр. доматено пюре</ingredient>
+				</ingredients>
+		 </recipe>
+		 <recipe>
+				<recipeInfo>
+					 <name>Пълнен шаран по свищовски</name>
+					 <location>Свищов</location>
+					 <region>Северен централен регион</region>
+					 <id>4</id>
+					 <regionId>202</regionId>
+                     <time>до 50 мин</time>
+					 <portions>5</portions>
+					 <recipeSteps>Шаранът се почиства, посолява и се оставя на хладно 2 часа. 
+					 През това време се приготвя плънката: 5-6 глави лук - според шарана - 
+					 се нарязват на ситно и се слагат в тиган да се запържат леко. Добавя 
+					 се 1 ч. л. червен пипер, малко черен пипер, стафидите и 1-2 лъжици захар
+					  - направо в тигана. Добавя се малко магданоз, нарязан на дребно и 2-3 
+					  щипки канела. След това се сваля от огъня и след малко се добавят 2 чаши
+					   чукани орехи, разбърква добре и шаранът се пълни с нея. Слагаме го в тава.
+					    Поливаме с олио и се поръсваме с червен пипер и брашно. Налива се чаша
+					вода и се слага да се пече, като от време на време се полива със соса. 
+					Шаранът се поднася вече поизстинал.
+                     </recipeSteps>
+				</recipeInfo>
+				<ingredients>
+					<ingredient>1 шаран - 2-3кг</ingredient>
+					<ingredient>5-6 глави лук</ingredient>
+					<ingredient>2 чаши орехи, счукани</ingredient>
+					<ingredient>50гр. стафиди</ingredient>
+					<ingredient>1-2 с.л. захар</ingredient>
+					<ingredient>канела, сол, червен</ingredient>
+					<ingredient>черен пипер</ingredient>
+					<ingredient>магданоз</ingredient>
+                    
+				</ingredients>
+		 </recipe>
+		 <recipe>
+				<recipeInfo>
+					 <name>Пълнени чушки по вълчидолски</name>
+					 <location>Вълчи Дол</location>
+					 <region>Североизточен  регион</region>
+					 <id>5</id>
+					 <regionId>203</regionId>
+                     <time>90 мин</time>
+					 <portions>15</portions>
+					 <recipeSteps>Месото се нарязва на не много едри кубчета и се сварява. 
+					 Добавят се нарязани на кубчета морковите, лука, целината с листата 
+					 и дръжките, боба, и патладжана, обелен и нарязан на ситно. След като 
+					 се сварят зеленчуците се добавя 1 ч. ч. ориз. Вари се до сваряване.
+					  Добавят се 5 с. л. доматен сос, и се посолява на вкус. Измиват се и 
+					  се почистват 2 кг червени едри чушки. Напълват се с плънката и се 
+					  нареждат в 2 тави. Заливат се до половина с вода. Пекат на фурна, 
+					  докато горната им част започне да прегаря. Нарязват се домати на кръгчета 
+					  и с тях се покриват напълно чушките. Оставя във фурната, докато доматите 
+					  също започнат да прегарят. Ястието върви добре с охладена бира, може и с 
+					  вълчидолското вино.
+</recipeSteps>
+				</recipeInfo>
+				<ingredients>
+					<ingredient>500-700гр. пилешко филе</ingredient>
+					<ingredient>2кг. едри червени чушки</ingredient>
+					<ingredient>3 едри моркова</ingredient>
+					<ingredient>1 глава лук</ingredient>
+					<ingredient>2 стръка целина</ingredient>
+					<ingredient>1 шепа бамя</ingredient>
+					<ingredient>1 шепа боб</ingredient>
+					<ingredient>1 едър патладжан</ingredient>
+					<ingredient>1 ч.ч ориз</ingredient>
+					<ingredient>5 с.л. доматен сос</ingredient>
+					
+				</ingredients>
+		 </recipe>
+		 <recipe>
+				<recipeInfo>
+					 <name>Лучник по врачански</name>
+					 <location>Враца</location>
+					 <region>Северозападен регион</region>
+					 <id>6</id>
+					 <regionId>201</regionId>
+					 <time>80 мин</time>
+					 <portions>10</portions>
+                    <recipeSteps>Пресейте брашното със содата и солта и добавете вода, като 
+					забъркате тесто. Оставете го настрана и пригответе плънката. Нарежете 
+					лука и го сложете да се задушава в маслото и олиото заедно с виното, 
+					водата и солта. Накълцват се на по-ситно зеления лук или праза, магданоза, 
+					копъра и мащерката и се слагат към готовия задушен лук. Добавяме натрошеното 
+					сирене, червен пипер и сол. От тестото се оформят 2 топки. Разточете едната 
+					на кора и я сложете в намаслена тава, като краищата й излизат от тавата. 
+					Сипете плънката и поставете другата разточена кора (стърчащите краища от 
+					долната кора се обръщат отгоре й и се притискат). Направете внимателно 
+					дупки върху кората и намажете с олио. Лучникът се пече в загрята фурна 
+					на 180 градуса.</recipeSteps>				
+				</recipeInfo>
+				<ingredients>
+					<ingredient>около 500гр. брашно</ingredient>
+					<ingredient>120мл. олио</ingredient>
+					<ingredient>1 ч.л. сол - пълна</ingredient>
+					<ingredient>5-6 глави лук - по-големи</ingredient>
+					<ingredient>4-5 стръка пресен лук</ingredient>
+					<ingredient>300гр. натрошено сирене</ingredient>
+					<ingredient>1/2 връзка магданоз</ingredient>
+					<ingredient>мащерка, червен пипер</ingredient>
+					<ingredient>50мл. бяло вино</ingredient>
+					<ingredient>50мл. вода</ingredient>
+					<ingredient>60гр.масло</ingredient>
+					
+				</ingredients>
+		 </recipe>
+		 <recipe>
+				<recipeInfo>
+					 <name>Пловдивски курабии</name>
+					 <location>Пловдив</location>
+					 <region>Южен централен регион</region>
+					 <id>7</id>
+					 <regionId>205</regionId>
+					 <time>45 мин</time>
+					 <portions>15</portions>
+					 <recipeSteps>Разбийте топеното масло със захарта, след това 
+					 добавете жълтъците, пак разбийте и сипете ванилията, 
+					 счуканите бадеми. Постепенно добавете брашното и хомогенизирайте 
+					 сместа. От тестото правете кръгли топчици, подреждайте го в тава 
+					 с хартия за печене или намаслена и ги изпечете. Докато курабиите 
+					 са още топли, ги поръсете с пудра захар. Те са чудесното допълнение 
+					 към сутрешното ви кафе.</recipeSteps>
+				</recipeInfo>
+				<ingredients>
+					<ingredient>2 ч.ч. масло - разтопено</ingredient>
+					<ingredient>1 и 1/2 ч.ч. захар</ingredient>
+					<ingredient>4 бр. жълтъци</ingredient>
+					<ingredient>ванилия</ingredient>
+					<ingredient>1 ч.ч. счукани бадеми</ingredient>
+					<ingredient>5 ч.ч. брашно</ingredient>
+					<ingredient>пудра захар - за поръсване</ingredient>
+				</ingredients>
+		 </recipe>
+		 <recipe>
+				<recipeInfo>
+					 <name>Болярски кюфтета от гъби</name>
+					 <location>с.Болярци</location>
+					 <region>Североизточен  регион</region>
+					 <id>8</id>
+					 <regionId>203</regionId>
+					 <time>50 мин</time>
+					 <portions>5</portions>
+					 <recipeSteps>Най-напред трябва да почистите и измиете гъбите. Нарежете 
+					 гъбите на ситно. Към тях прибавете настъргания кромид лук, 
+					 предварително накиснатия в прясно мляко и изцеден хляб, двата 
+					 жълтъка, сол и черен пипер на вкус. Разбъркайте добре получената 
+					 смес и от нея оформете топчета. Овалете топчетата в галетата, 
+					 а след това и в леко разбитите белтъци и ги изпържете в предварително 
+					 загрятата мазнина. Кюфтетата от гъби се комбинират с различни гарнитури 
+					 и салати. Не се препоръчват за хора с чувствителни стомаси, тъй като 
+					 се пържи в много олио. 
+</recipeSteps>
+				</recipeInfo>
+				<ingredients>
+					<ingredient>200гр. гъби</ingredient>
+					<ingredient>1 глава кромид лук</ingredient>
+					<ingredient>2 яйца</ingredient>
+					<ingredient>2 филии бял хляб</ingredient>
+					<ingredient>100гр. галета</ingredient>
+					<ingredient>1 ч.ч. растително мляко</ingredient>
+					<ingredient>500гр. кисело мляко</ingredient>
+					<ingredient>сол, черен пипер</ingredient>
+
+
+				</ingredients>
+		 </recipe>
+		 
+	</recipeList>
+	<regionList>
+		<regionInfo>
+			<regionName>Североизточен регион</regionName>
+			<reg regRef="Североизточен регион" regIdRef="203"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Южен централен регион</regionName>
+			<reg regRef="Южен централен регион" regIdRef="205"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Северозападен регион</regionName>
+			<reg regRef="Северозападен регион" regIdRef="201"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Югоизточен регион</regionName>
+			<reg regRef="Югоизточен регион" regIdRef="204"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Северен централен регион</regionName>
+			<reg regRef="Северен централен регион" regIdRef="202"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Югозападен регион</regionName>
+			<reg regRef="Югозападен регион" regIdRef="206"/>
+		</regionInfo>
+	</regionList>	
+</recipes>
